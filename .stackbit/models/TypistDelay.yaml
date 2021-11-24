@@ -1,0 +1,14 @@
+name: TypistDelay
+label: Typist delay
+labelField: millis
+groups:
+  - TypistElements
+fields:
+  - type: number
+    name: delayMillis
+    label: Delay in milliseconds
+    default: 1000
+    min: 0
+    max: 30000
+    step: 50
+    controlType: slider

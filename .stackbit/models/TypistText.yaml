@@ -1,0 +1,14 @@
+name: TypistText
+label: Typist text
+labelField: text
+groups:
+  - TypistElements
+fields:
+  - type: string
+    name: text
+    label: Text
+    default: 'This is a text. '
+  - type: boolean
+    name: lineBreak
+    label: Line break
+    default: false

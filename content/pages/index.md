@@ -2,6 +2,27 @@
 title: Home
 layout: PageLayout
 sections:
+  - type: TypistSection
+    title: Moshe Cohen
+    lines1:
+      - 'Hello '
+      - 'Dear '
+      - World
+    lines:
+      - type: TypistText
+        text: 'Hello '
+      - type: TypistText
+        text: 'World!'
+        lineBreak: true
+      - type: TypistDelay
+        delayMillis: 1500
+      - type: TypistText
+        text: 'Is this on another line?'
+      - type: TypistBackspace
+        delayMillis: 500
+        count: 5
+      - type: TypistText
+        text: 'world?'
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
