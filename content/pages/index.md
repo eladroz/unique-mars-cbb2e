@@ -24,7 +24,7 @@ sections:
       - type: TypistText
         text: world?
       - text: Another new line...
-        lineBreak: false
+        lineBreak: true
         type: TypistText
   - type: HeroSection
     elementId: homepage-hero-1
