@@ -23,7 +23,7 @@ sections:
         count: 5
       - type: TypistText
         text: world?
-      - text: 'This is a text. '
+      - text: Another new line...
         lineBreak: false
         type: TypistText
   - type: HeroSection
