@@ -3,11 +3,6 @@ title: Home
 layout: PageLayout
 sections:
   - type: TypistSection
-    title: Moshe Cohen
-    lines1:
-      - 'Hello '
-      - 'Dear '
-      - World
     lines:
       - type: TypistText
         text: 'Hello '

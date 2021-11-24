@@ -1,6 +1,6 @@
 name: TypistBackspace
-label: Typist backspace
-labelField: text
+label: Backspace
+labelField: count
 extends:
   - TypistDelay
 groups:

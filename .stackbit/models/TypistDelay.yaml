@@ -1,6 +1,6 @@
 name: TypistDelay
 label: Typist delay
-labelField: millis
+labelField: delayMillis
 groups:
   - TypistElements
 fields:

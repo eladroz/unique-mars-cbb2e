@@ -1,21 +1,11 @@
 type: object
 name: TypistSection
-label: Typist section
-labelField: title
+label: Typist
 extends:
   - Section
 groups:
   - sectionComponent
 fields:
-  - type: string
-    name: title
-    label: Title
-    default: The Section Title
-  - type: list
-    name: lines1
-    label: Lines1
-    items:
-      type: string
   - type: list
     name: lines
     label: Lines
