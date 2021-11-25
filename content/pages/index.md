@@ -23,7 +23,7 @@ sections:
       - type: TypistTextElement
         delayBefore: 500
         text: And another new line to end with.
-      - delayBefore: 0
+      - delayBefore: 4100
         count: 1
         type: TypistBackspaceElement
   - type: HeroSection
