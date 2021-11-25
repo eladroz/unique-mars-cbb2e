@@ -17,7 +17,7 @@ sections:
         delayMillis: 500
         count: 5
       - type: TypistText
-        text: `world?`
+        text: 'world?'
       - text: Another new line...
         lineBreak: true
         type: TypistText
