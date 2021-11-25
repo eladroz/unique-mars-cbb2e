@@ -1,5 +1,5 @@
 name: TypistDelay
-label: Typist delay
+label: Delay
 labelField: delayMillis
 groups:
   - TypistElements
@@ -10,5 +10,5 @@ fields:
     default: 1000
     min: 0
     max: 30000
-    step: 50
-    controlType: slider
+    #step: 50
+    #controlType: slider
