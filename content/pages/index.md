@@ -7,17 +7,17 @@ sections:
       - type: TypistText
         text: 'Hello '
       - type: TypistText
-        text: 'World! '
+        text: World!
         lineBreak: true
       - type: TypistDelay
         delayMillis: 1500
       - type: TypistText
-        text: 'Is this on another line?
+        text: Is this on another line?
       - type: TypistBackspace
         delayMillis: 500
         count: 5
       - type: TypistText
-        text: 'world?'
+        text: world?
       - text: Another new line...
         lineBreak: true
         type: TypistText
