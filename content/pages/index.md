@@ -6,7 +6,7 @@ sections:
     elements:
       - type: TypistTextElement
         text: Hello Hello!
-        lineBreak: false
+        lineBreak: true
       - type: TypistTextElement
         delayBefore: 500
         text: World!
