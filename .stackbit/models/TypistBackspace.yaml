@@ -10,4 +10,4 @@ fields:
     name: count
     label: Count
     default: 1
-    min: 1
+    #min: 1
