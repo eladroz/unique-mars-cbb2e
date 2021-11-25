@@ -10,5 +10,5 @@ fields:
     default: 'This is a text. '
   - type: boolean
     name: lineBreak
-    label: Line break?
+    label: Line break
     default: false
