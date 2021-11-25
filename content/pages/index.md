@@ -90,7 +90,7 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-8
+          - pt-4
           - pb-8
           - pr-8
           - pl-8
