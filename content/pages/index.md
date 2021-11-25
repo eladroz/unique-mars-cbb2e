@@ -22,6 +22,42 @@ sections:
       - type: TypistTextElement
         delayBefore: 500
         text: And another new line to end with.
+  - elementId: ''
+    colors: colors-a
+    backgroundImage: {}
+    title: Let's do this
+    text: >-
+      The Stackbit theme is flexible and scalable to every need. It can manage
+      any layout and any screen.
+    actions:
+      - type: Button
+        label: Try it now
+        url: /about
+        style: primary
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: CtaSection
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
