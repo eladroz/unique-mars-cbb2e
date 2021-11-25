@@ -1,13 +1,12 @@
-name: TypistBackspace
+name: TypistBackspaceElement
 label: Backspace
-labelField: count
 extends:
-  - TypistDelay
+  - TypistBaseElement
 groups:
   - TypistElements
 fields:
   - type: number
     name: count
     label: Count
+    min: 1
     default: 1
-    #min: 1

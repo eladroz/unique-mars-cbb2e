@@ -7,8 +7,8 @@ groups:
   - sectionComponent
 fields:
   - type: list
-    name: lines
-    label: Lines
+    name: elements
+    label: Elements
     items:
       type: model
       groups: [TypistElements]

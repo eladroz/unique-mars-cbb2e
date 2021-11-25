@@ -3,24 +3,25 @@ title: Home
 layout: PageLayout
 sections:
   - type: TypistSection
-    lines:
-      - type: TypistText
+    elements:
+      - type: TypistTextElement
         text: 'Hello '
-      - type: TypistText
+      - type: TypistTextElement
+        delayBefore: 500
         text: World!
         lineBreak: true
-      - type: TypistDelay
-        delayMillis: 1500
-      - type: TypistText
+      - type: TypistTextElement
+        delayBefore: 1500
         text: Is this on another line?
-      - type: TypistBackspace
-        delayMillis: 500
+      - type: TypistBackspaceElement
+        delayBefore: 1000
         count: 5
-      - type: TypistText
+      - type: TypistTextElement
         text: world?
-      - text: Another new line...
         lineBreak: true
-        type: TypistText
+      - type: TypistTextElement
+        delayBefore: 500
+        text: And another new line to end with.
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a

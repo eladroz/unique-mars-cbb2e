@@ -2,26 +2,26 @@ import * as React from 'react';
 import classNames from 'classnames';
 import Typist from 'react-typist';
 
-function typistElement(line, idx) {
-    switch(line.type) {
-        case 'TypistText':
-            return line.lineBreak ? 
-                <div key={idx}>{line.text}</div> : 
-                <span key={idx}>{line.text}</span> 
-        case 'TypistDelay':
-            return <Typist.Delay  key={idx} ms={line.delayMillis}/>;
-        case 'TypistBackspace':
-            return <Typist.Backspace  key={idx} count={line.count} delay={line.delayMillis}/>
-        default:
-            throw new Error(`Unknown typist element: ${line}`);
+function makeChildren(elem) {
+    let children = []
+    if (elem.delayBefore)
+        children.push(<Typist.Delay ms={elem.delayBefore}/>)
+
+    if (elem.type === 'TypistTextElement') {
+        children.push(<span>{elem.text}{elem.lineBreak ? <br/> : ''}</span>)
+    } else if (elem.type === 'TypistBackspaceElement') {
+        children.push(<Typist.Backspace count={elem.count}/>)
+    } else {
+        throw new Error(`Unknown element: ${elem}`)
     }
+    return children;
 }
 
 export default function TypistSection(props) {
-    return <div className={classNames('sb-component', 'sb-component-section', 'text-xl')}>
-        {props.lines &&
+    return <div className={classNames('sb-component', 'sb-component-section', 'sb-typist-section')}>
+        {props.elements &&
             <Typist>
-                { props.lines.map((line, idx) => typistElement(line, idx)) }
+                { props.elements.flatMap((elem) => makeChildren(elem)) }
             </Typist>
         }
     </div>;
