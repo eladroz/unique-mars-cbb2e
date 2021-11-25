@@ -1,6 +1,7 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import Typist from 'react-typist';
+import hash from 'object-hash';
 
 function makeChildren(elem, i) {
     let children = []
@@ -28,7 +29,7 @@ function makeChildren(elem, i) {
 export default function TypistSection(props) {
     return <div className={classNames('sb-component', 'sb-component-section', 'sb-typist-section')}>
         {props.elements &&
-            <Typist key={Math.random()}>
+            <Typist key={hash(props.elements)}>
                 { props.elements.flatMap((elem, i) => makeChildren(elem, i)) }
             </Typist>
         }
