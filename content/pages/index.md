@@ -35,7 +35,7 @@ sections:
       inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
     styles:
       self:
-        height: screen
+        height: auto
         width: wide
         margin:
           - mt-0
