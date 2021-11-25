@@ -18,7 +18,7 @@ sections:
         count: 5
       - type: TypistTextElement
         text: world?
-        lineBreak: false
+        lineBreak: true
       - type: TypistTextElement
         delayBefore: 500
         text: And another new line to end with.
