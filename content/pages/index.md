@@ -5,7 +5,7 @@ sections:
   - type: TypistSection
     elements:
       - type: TypistTextElement
-        text: 'Hello '
+        text: Hello Hello!
         lineBreak: false
       - type: TypistTextElement
         delayBefore: 500
