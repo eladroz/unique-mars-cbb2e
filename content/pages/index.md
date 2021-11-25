@@ -7,7 +7,7 @@ sections:
       - type: TypistText
         text: 'Hello '
       - type: TypistText
-        text: World!
+        text: 'World! '
         lineBreak: true
       - type: TypistDelay
         delayMillis: 1500
