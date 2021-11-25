@@ -13,7 +13,7 @@ sections:
         lineBreak: true
       - type: TypistTextElement
         delayBefore: 1500
-        text: Is THIS on another line?
+        text: Is this on another line?
       - type: TypistBackspaceElement
         delayBefore: 1000
         count: 5
