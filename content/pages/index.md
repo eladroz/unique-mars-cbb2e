@@ -17,7 +17,7 @@ sections:
         delayBefore: 1000
         count: 5
       - type: TypistTextElement
-        text: world?
+        text: 'world? '
         lineBreak: true
       - type: TypistTextElement
         delayBefore: 500
