@@ -12,7 +12,7 @@ sections:
       - type: TypistDelay
         delayMillis: 1500
       - type: TypistText
-        text: 'Is this on another line?'
+        text: 'Is this on another line?
       - type: TypistBackspace
         delayMillis: 500
         count: 5
