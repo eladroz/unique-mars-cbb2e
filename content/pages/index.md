@@ -23,6 +23,9 @@ sections:
       - type: TypistTextElement
         delayBefore: 500
         text: And another new line to end with.
+      - delayBefore: 0
+        count: 1
+        type: TypistBackspaceElement
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
