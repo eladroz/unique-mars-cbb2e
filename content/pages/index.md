@@ -9,7 +9,7 @@ sections:
         delayBefore: 0
       - type: TypistTextElement
         delayBefore: 800
-        text: World!
+        text: world!
         lineBreak: true
       - type: TypistTextElement
         delayBefore: 1500
