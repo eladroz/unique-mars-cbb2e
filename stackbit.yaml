@@ -23,3 +23,10 @@ contentModels:
     newFilePath: 'blog/{slug}.md'
   Person:
     newFilePath: 'team/{slug}.json'
+    isPage: false
+modelsSource:
+  type: files
+  modelDirs:
+    - node_modules/@stackbit/components/models
+    - node_modules/stackbit-typist/models
+    - .stackbit/models

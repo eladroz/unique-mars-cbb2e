@@ -2,7 +2,7 @@ name: TypistTextElement
 label: Text
 labelField: text
 extends:
-  - TypistBastElement
+  - TypistBaseElement
 groups:
   - TypistElements
 fields:

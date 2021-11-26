@@ -1,4 +1,5 @@
 name: TypistBaseElement
+label: NA
 fields:
   - type: number
     name: delayBefore
