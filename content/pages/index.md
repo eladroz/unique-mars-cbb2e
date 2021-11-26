@@ -6,6 +6,7 @@ sections:
     elements:
       - type: TypistTextElement
         text: 'Hello there '
+        delayBefore: 0
       - type: TypistTextElement
         delayBefore: 800
         text: World!
